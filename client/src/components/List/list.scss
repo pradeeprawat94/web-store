@@ -1,0 +1,91 @@
+.list{
+    width: 100vw;
+    height: 80vh;
+    padding:  1rem;
+    display: flex;
+    gap: 10px;
+    button{
+        padding: .5rem;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        border: none;
+    }
+    .column1{
+        flex: 3;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        .row1{
+            height: 50%;
+            position: relative;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .row2{
+            height: 50%;
+            position: relative;
+
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+    }
+    .column2{
+        flex: 3;
+        height: 100%;
+        position: relative;
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+
+    }
+    .column3{
+        flex: 8;
+        gap: 10px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        .row3{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        position: relative;
+
+        .column{
+            width: 50%;
+            height: 100%;
+            position: relative;
+
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .row4{
+        height: 50%;
+        width: 100%;
+        background-color: red;
+        position: relative;
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}}

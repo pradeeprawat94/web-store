@@ -1,0 +1,114 @@
+.container {
+    height: 60px;
+    padding: 0 40px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    z-index: 90;
+    position: relative;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    
+        .left {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            cursor: pointer;
+            font-weight:500;
+
+            .country {
+                display: flex;
+                align-items: center;
+
+                img {
+                    height: 20px;
+                }
+            }
+
+            .currency {
+                display: flex;
+                align-items: center;
+            }
+
+            ul {
+                text-decoration: none;
+                display: flex;
+                gap: 15px;
+
+                li {
+                    list-style: none;
+                }
+
+            }
+
+        }
+
+        .center {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            letter-spacing: 3px;
+            font-size: 20px;
+        }
+
+        .right {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            font-weight:500;
+
+            nav {
+                ul {
+                    text-decoration: none;
+                    text-decoration: none;
+                    display: flex;
+                    gap: 15px;
+                    cursor: pointer;
+
+                    li {
+                        list-style: none;
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+                span{
+                    position: relative;
+                    span{
+                        position: absolute;
+                        background-color: #2b78fe;
+                        color: white;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        left: 15px;
+                        top:-2px;
+                        padding: 2px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 5px;
+                        font-size: 13px;
+
+                    }
+                }
+            }
+        }
+
+    }
+    .cart-wrapper{
+        position: absolute;
+        top: 40px;
+        right: 50px;
+        z-index: 100;
+    }
+}

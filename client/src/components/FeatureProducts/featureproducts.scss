@@ -1,0 +1,24 @@
+.featureproducts{
+    width: 70%;
+    margin: 2rem auto;
+    height:fit-content;
+    padding: 1rem;
+    .top{
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        h1{
+            flex: 2;
+        }
+        p{
+            flex: 3;
+        }
+    }
+    .bottom{
+        display: flex;
+        margin: 1rem 0;
+        height: fit-content;
+        justify-content: space-between;
+    }
+
+}

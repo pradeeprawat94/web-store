@@ -1,0 +1,94 @@
+.products {
+    .wrapper {
+        display: flex;
+        padding: 2rem 4rem;
+        gap: 10px;
+        position: relative;
+
+        .left {
+            flex: 1;
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            border-right: 1px solid gray;
+            position: sticky;
+            top: 20px;
+            left: 0;
+            height:max-content;
+
+            .common-class {
+                display: flex;
+                gap: 10px;
+            }
+
+            .filterbycategories {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                .newCategory{
+                    .subcategory{
+                        text-transform: capitalize; 
+                        display: flex;
+                        input{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+
+            }
+
+            .filterbyprice {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+            }
+
+            .filterbysort {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                .sorting {
+                    flex-direction: column;
+                }
+            }
+
+        }
+
+        .right {
+            flex: 4;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .top {
+                height: 300px;
+                width: 100%;
+
+                .top-wrapper {
+                    height: 100%;
+                    width: 100%;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover
+
+                    }
+
+                    ;
+
+                }
+            }
+            .bottom{
+                width: 100%;
+                overflow-y: hidden;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap:wrap;
+                gap: 10px;
+            }
+        }
+    }
+}

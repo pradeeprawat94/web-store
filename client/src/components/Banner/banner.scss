@@ -1,0 +1,33 @@
+.banner-container {
+    height: calc(100vh - 60px);
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+
+    .banner-wrapper {
+        display: flex;
+        justify-content: first baseline;
+        height: 100%;
+        width: 300vw;
+        overflow-x: hidden;
+        .banner-img {
+                height: 100%;
+                width: 100vw;
+                object-fit: cover;
+                overflow-x: hidden;
+            }    
+    }
+    .icons{
+        position: absolute;
+        top: calc(100% - 100px);
+        left: calc(100% - 50%);
+        display: flex;
+        gap: 20px;
+        .icon{
+            border: 1px solid rgb(231, 229, 229);
+            padding: 10px;
+            cursor: pointer;
+            color: rgb(12, 12, 12);
+        }
+    }
+}
